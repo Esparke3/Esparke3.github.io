@@ -1,0 +1,94 @@
+/* Header */
+header {
+    background-color: purple;
+    color: green;
+    text-align: center;
+    padding: 20px;
+}
+header .logo {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Banner */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Genre Sections */
+.genres {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.genre-box {
+    text-align: center;
+    width: 30%;
+}
+.genre-box img {
+    width: 100%;
+    height: auto;
+}
+
+/* Featured Review */
+.featured-review {
+    display: flex;
+    margin: 20px;
+}
+.featured-review .featured-img {
+    width: 40%;
+    margin-right: 20px;
+}
+.featured-review .review-text {
+    width: 60%;
+}
+
+/* Sidebar */
+aside {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+aside .search-bar input {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer a {
+    color: #0f0;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
