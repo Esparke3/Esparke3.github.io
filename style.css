@@ -39,6 +39,23 @@ nav ul li a:hover {
     height: auto;
 }
 
+/* Welcome Paragraph */
+.welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+/* Game Clip Video */
+.game-video {
+    text-align: center;
+    margin: 20px 0;
+}
+.video-description {
+    margin-top: 5px;
+    font-style: italic;
+}
+
 /* Genre Sections */
 .genres {
     display: flex;
